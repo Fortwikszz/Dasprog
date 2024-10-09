@@ -29,7 +29,7 @@ for i in range(len(move)):
         gold -= 2
         gold += coor[ic][jc]
     
-    if ic < 0 or jc < 0:
+    if int(ic) < 0 or int(jc) < 0 or int(ic) > int(int(r)-1) or int(jc) > int(int(c)-1):
         gelah = True
         break
     

@@ -13,7 +13,7 @@ for i in range(N):
                 if int(murid[i][2]) + 1 == int(murid[j][2]):
                     print(murid[j][0], end=" ")
                     adasebelah = True
-                if int(murid[i][2]) - 1 == int(murid[j][2]):
+                elif int(murid[i][2]) - 1 == int(murid[j][2]):
                     print(murid[j][0], end=" ")
                     adasebelah = True
     if not adasebelah:
